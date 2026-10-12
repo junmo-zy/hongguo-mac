@@ -198,14 +198,6 @@ Dock 若固定了旧入口，请移除旧入口并固定新 App。安装后续�
 
 AirPlay 的配置、接口与调用链已验证；系统设备选择器实际显示和接收端投放尚未完成确认。尚未完成其他 macOS 版本及长时间耐久测试。片源、画质、搜索范围和评论正文取决于第三方服务。
 
-安装包 SHA-256：
-
-```text
-68c977d57b4d8ab0d0c5bf5eb2701c0e00cccd46ca179b20b77aea475b9c6b67
-```
-
-[下载校验文件](https://github.com/junmo-zy/hongguo-mac/releases/download/v0.8.0/SHA256SUMS-0.8.0.txt)。校验用于核对文件一致性，不能代替发布者身份验证。
-
 ## 项目来源与反馈
 
 Mac 界面使用 SwiftUI + WebKit。桌面播放方案参考 [hongguo-desktop-releases](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases)，后端来源为其公开发行组件及 [zhangbaio/hongguo](https://github.com/zhangbaio/hongguo)。组件来源说明与原有许可证保留在应用包的 `Contents/Resources/Backend/PROVENANCE.md`、`Backend/licenses` 及运行环境目录中。本项目不重新许可第三方组件或内容。
