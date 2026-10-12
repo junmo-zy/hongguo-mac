@@ -1,15 +1,12 @@
-# HongGuo for macOS
+# HongGuo — 红果短剧 Mac 客户端
 
 <img src="app-icon.png" width="88" alt="HongGuo 石墨黑 HG 图标" />
 
-一个面向 Mac 的非官方短剧客户端：原生 SwiftUI 界面，支持三套主题、独立播放、离线下载、MP4 导出、收藏续播与本机追更。
+HongGuo 是面向 macOS 的红果短剧客户端，支持 Apple Silicon（M 系列）Mac。使用原生 SwiftUI 界面，提供经典、映幕、青序三套深浅主题，支持独立播放、离线下载、MP4 导出、收藏续播与本机追更。
 
 **[⬇ 下载 Mac 安装包](https://github.com/junmo-zy/hongguo-mac/releases/download/v0.8.0/HongGuo-Mac-0.8.0-arm64.dmg)**　｜　[三步安装](#三步安装)　｜　[安装说明](#安装说明)　｜　[全部版本](https://github.com/junmo-zy/hongguo-mac/releases)
 
 **macOS 14+ · Apple Silicon（M 系列）· v0.8.0 · 155.0 MiB**。点击上方直接下载 `.dmg`，无需进入 Releases 查找文件，也不用下载 `Source code` 压缩包。
-
-> [!IMPORTANT]
-> **本项目不是红果官方产品，与红果及其关联主体无隶属、合作、赞助或背书关系。** 第三方内容、封面、商标和组件归各自权利人所有。更换名称或图标不代表取得内容或服务授权；免费、非商业使用也不当然免责。下载、使用或传播前，请阅读 [免责声明与权利说明](DISCLAIMER.md)。
 
 ## 版本与系统要求
 

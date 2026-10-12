@@ -1,4 +1,4 @@
-# HongGuo for macOS v0.8.0（非官方）
+# HongGuo 红果短剧 Mac 客户端 v0.8.0
 
 **macOS 14+ · Apple Silicon（M 系列）· 155.0 MiB**
 
@@ -30,4 +30,4 @@
 
 AirPlay 配置、接口及调用链已验证，但系统选择器显示与实际投放尚未确认；未完成其他系统版本和长时间耐久测试。账号登录、手机云同步、评论发布和会员体系尚未接入。内容可用性依赖第三方服务。
 
-本项目不是红果官方产品，与红果及其关联主体无隶属、合作或背书关系。第三方内容、封面、商标与组件归各自权利人所有。[免责声明与权利说明](https://github.com/junmo-zy/hongguo-mac/blob/main/DISCLAIMER.md)。
+第三方内容、封面、商标与组件归各自权利人所有。[免责声明与权利说明](https://github.com/junmo-zy/hongguo-mac/blob/main/DISCLAIMER.md)。
