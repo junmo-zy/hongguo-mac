@@ -4,18 +4,18 @@
 
 HongGuo 是面向 macOS 的红果短剧客户端，支持 Apple Silicon（M 系列）Mac。使用原生 SwiftUI 界面，提供经典、映幕、青序三套深浅主题，支持独立播放、离线下载、MP4 导出、收藏续播与本机追更。
 
-**[⬇ 下载 Mac 安装包](https://github.com/junmo-zy/hongguo-mac/releases/download/v0.8.0/HongGuo-Mac-0.8.0-arm64.dmg)**　｜　[三步安装](#三步安装)　｜　[安装说明](#安装说明)　｜　[全部版本](https://github.com/junmo-zy/hongguo-mac/releases)
+**[⬇ 下载 Mac 安装包](https://github.com/junmo-zy/hongguo-mac/releases/download/v0.8.1/HongGuo-Mac-0.8.1-arm64.dmg)**　｜　[三步安装](#三步安装)　｜　[安装说明](#安装说明)　｜　[全部版本](https://github.com/junmo-zy/hongguo-mac/releases)
 
-**macOS 14+ · Apple Silicon（M 系列）· v0.8.0 · 155.0 MiB**。点击上方直接下载 `.dmg`，无需进入 Releases 查找文件，也不用下载 `Source code` 压缩包。
+**macOS 14+ · Apple Silicon（M 系列）· v0.8.1 · 155.0 MiB**。点击上方直接下载 `.dmg`，无需进入 Releases 查找文件，也不用下载 `Source code` 压缩包。
 
 ## 版本与系统要求
 
 | 项目 | 说明 |
 | --- | --- |
-| 当前版本 | v0.8.0 |
+| 当前版本 | v0.8.1 |
 | 系统 | macOS 14 或更新版本 |
 | 芯片 | Apple Silicon，M 系列芯片；目前不支持 Intel Mac |
-| 安装包 | `HongGuo-Mac-0.8.0-arm64.dmg`，约 155.0 MiB |
+| 安装包 | `HongGuo-Mac-0.8.1-arm64.dmg`，约 155.0 MiB |
 | 运行环境 | 已内置 Python、Java 及所需组件，无需自行配置 |
 | 手机依赖 | 不需要连接手机或运行安卓模拟器 |
 | 网络 | 浏览、在线播放与下载需要联网；已完成的下载可离线播放 |
@@ -23,18 +23,26 @@ HongGuo 是面向 macOS 的红果短剧客户端，支持 Apple Silicon（M 系�
 
 本仓库用于分发安装包、说明和截图，不是完整源码仓库，也不在仓库中托管剧集文件。
 
-## 0.8.0 更新
+## 0.8.1 更新 · 播放源修复
+
+- **恢复播放与下载**：修复旧播放接口返回空响应、无法获取视频的问题，更新在线播放和离线下载共用的取流请求。
+- **保留最高可用画质**：实测恢复 1080p 播放，清晰度切换、切集、预加载、续播及下载继续可用；实际可选画质以每集片源为准。
+- **保留界面与数据**：经典、映幕、青序三套深浅主题、SwiftUI 原生结构，以及本机收藏、观看记录和播放偏好保持原样。
+
+[查看 0.8.1 发布说明](https://github.com/junmo-zy/hongguo-mac/releases/tag/v0.8.1)
+
+### 0.8.0 功能更新
 
 - **三套主题**：保留经典，新增映幕与青序。首页、剧集卡片、详情页和播放器保持原生 SwiftUI 结构；每套主题均支持浅色、深色和跟随系统。
 - **离线下载与导出**：按集数范围和清晰度下载，支持暂停、继续、失败重试、保存位置迁移和索引修复；已下载集数可分别导出 MP4 或按顺序无损合并。
 - **更完整的播放控制**：独立预加载开关、竖屏小窗、长按右方向键临时 2 倍速、暂停并隐藏、画面适应方式、播放防休眠与 H.264 / AAC 兼容播放。
 - **找剧与追更**：支持官网链接或剧集 ID、演员搜索、其他季候选、本机追更、推荐换一批和只读本集评论；应用内可检查 GitHub 正式版更新。
 
-[查看本版发布说明](https://github.com/junmo-zy/hongguo-mac/releases/tag/v0.8.0)
+[查看 0.8.0 发布说明](https://github.com/junmo-zy/hongguo-mac/releases/tag/v0.8.0)
 
 ## 界面截图
 
-以下 12 张截图均于 2026-10-12 从 0.8.0 原生应用重新拍摄，使用独立演示数据。片单、封面与画面会随内容服务变化。
+以下 12 张截图均于 2026-10-12 从 0.8.0 原生应用拍摄，使用独立演示数据；0.8.1 沿用相同界面。片单、封面与画面会随内容服务变化。
 
 ### 映幕 · 海报卡片与柔和层次
 
@@ -102,7 +110,7 @@ HongGuo 是面向 macOS 的红果短剧客户端，支持 Apple Silicon（M 系�
 
 ## 三步安装
 
-1. **下载**：[点击下载 HongGuo Mac 安装包](https://github.com/junmo-zy/hongguo-mac/releases/download/v0.8.0/HongGuo-Mac-0.8.0-arm64.dmg)。
+1. **下载**：[点击下载 HongGuo Mac 安装包](https://github.com/junmo-zy/hongguo-mac/releases/download/v0.8.1/HongGuo-Mac-0.8.1-arm64.dmg)。
 2. **安装**：打开 `.dmg`，把 **HongGuo.app** 拖入 **Applications / 应用程序**。已有旧版时，先完全退出，再选择替换。
 3. **启动**：从「应用程序」打开 **HongGuo**。
 
@@ -191,13 +199,15 @@ Dock 若固定了旧入口，请移除旧入口并固定新 App。安装后续�
 
 ## 验证与已知限制
 
-0.8.0 已在 Apple Silicon / macOS 26.6.2 上完成自动化回归，覆盖真实在线与离线视频解码、下载与续传、MP4 导出与合并、失败切集回退、播放偏好、更新检查，以及三套主题深浅设置页的原生渲染与滚动。安装包签名及镜像校验通过。
+0.8.1 于 2026-10-17 在 Apple Silicon / macOS 26.6.2 上通过四组自动化回归，覆盖真实 1080p 在线播放、清晰度切换与切集、预加载和续播、并行播放与下载、离线播放、MP4 导出与合并、失败切集回退、兼容转码、画面模式、防休眠及播放偏好。新增接口测试覆盖批量请求、缓存、异常响应和剧集匹配；安装包签名、镜像完整性及安装启动检查通过。三套主题深浅设置页的原生渲染与滚动沿用 0.8.0 的验证结果。
 
 AirPlay 的配置、接口与调用链已验证；系统设备选择器实际显示和接收端投放尚未完成确认。尚未完成其他 macOS 版本及长时间耐久测试。片源、画质、搜索范围和评论正文取决于第三方服务。
 
 ## 项目来源与反馈
 
 Mac 界面使用 SwiftUI + WebKit。桌面播放方案参考 [hongguo-desktop-releases](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases)，后端来源为其公开发行组件及 [zhangbaio/hongguo](https://github.com/zhangbaio/hongguo)。组件来源说明与原有许可证保留在应用包的 `Contents/Resources/Backend/PROVENANCE.md`、`Backend/licenses` 及运行环境目录中。本项目不重新许可第三方组件或内容。
+
+0.8.1 的取流请求字段参考 [hongguoTV 的近期播放修复](https://github.com/bimoshuxinghe/hongguoTV/commit/0815d5ec47ddab1353f85c85167b0ac47ef92ae9)，在本项目中独立实现 Python 适配，复用现有播放与下载流程。
 
 遇到问题请在 [Issues](https://github.com/junmo-zy/hongguo-mac/issues) 提供 macOS 版本、芯片型号、应用版本、复现步骤和错误提示。播放问题可附剧名及集数；截图请避开个人信息，无需提交密码、验证码或账号凭证。
 
